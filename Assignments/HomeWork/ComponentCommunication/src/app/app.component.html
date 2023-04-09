@@ -1,0 +1,7 @@
+<h1>Demostration of Parent to Child and Child to Parent Component Communication</h1>
+
+<hr>
+
+<h1>{{MessageFromChild}}</h1>
+
+<app-child (MyEvent)="MessageFromChild=$event" [MessageFromParent]="message"></app-child>
