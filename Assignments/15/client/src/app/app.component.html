@@ -1,0 +1,15 @@
+<h1>All Operation in single</h1>
+
+<button (click)="GetData()">Please Click</button>
+
+<!-- <h1>{{displayData|json}}</h1> -->
+
+<div *ngFor="let x of displayData">
+  <table>
+    <tr>
+      <td>{{x.Batch}}</td>
+      <td>{{x.Fees}}</td>
+    </tr>
+  </table>
+  
+</div>
